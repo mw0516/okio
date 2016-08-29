@@ -1,0 +1,6 @@
+rootProject.name = 'okio-parent'
+include ':okio'
+include ':benchmarks'
+
+project(':okio').projectDir = "$rootDir/okio" as File
+project(':benchmarks').projectDir = "$rootDir/benchmarks" as File
